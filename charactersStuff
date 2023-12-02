@@ -1,0 +1,20 @@
+let characters = [
+    {
+        _id: 1, name: "Jonathan Joestar", height: "6ft 5in", nationality: "British", stand_power: "N/A", enemy: "Dio Brando", team: ["Robert E. O. Speedwagon", "Will Anthonio Zeppeli", "Poco", "Tonpetty", "Dire", "Straizo"], img: "/images/jonathanPic.png"
+    },
+    {
+        _id: 2, name: "Joseph Joestar", height: "6ft 5in", nationality: "British-American", stand_power: "Hermit Purple", enemy: "Pillar Men", team: ["Robert E. O. Speedwagon", "Smokey Brown", "Caesar Anthonio Zeppeli", "Rudol Von Stroheim"], img: "/images/josephPic.png"
+    },
+    {
+        _id: 3, name: "Jotaro Kujo", height: "6ft 5in", nationality: "Japanese", stand_power: "Star Platinum", enemy: "Dio Brando", team: ["Muhammad Avdol", "Noriaki Kakyoin", "Jean Pierre Polnareff", "Iggy"], img: "/images/jotaroPic.png"
+    },
+    {
+        _id: 4, name: "Josuke Higashikata", height: "5ft 11in", nationality: "British-Japanese", stand_power: "Crazy Diamond", enemy: "Yoshikage Kira", team: ["Koichi Hirose", "Okuyasu Nijimura", "Rohan Kishibe", "Mikitaka Hazekura"], img: "/images/josukePic.png"
+    },
+    {
+        _id: 5, name: "Giorno Giovanna", height: "5ft 9in", nationality: "British-Italian", stand_power: "Gold Experience", enemy: "Diavolo", team: ["Bruno Bucciarati", "Guido Mista", "Narancia Ghirga", "Pannacotta Fugo", "Leone Abbacchio"], img: "/images/giornoPic.png"
+    },
+    {
+        _id: 6, name: "Jolyne Cujoh", height: "5ft 8.7in", nationality: "American", stand_power: "Stone Free", enemy: "Enrico Pucci", team: ["Ermes Costello", "Emporio Alnino", "Foo Fighters", "Weather Report", "Narciso Anasui"], img: "/images/jolynePic.png"
+    }
+];

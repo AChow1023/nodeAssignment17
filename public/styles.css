@@ -1,0 +1,110 @@
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.transparent{
+    opacity: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+#add-link{
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+#submit-msg{
+    font-size: 1em;
+    margin: auto;
+    margin-right: 100px;
+}
+
+/*character list*/
+#character-list{
+    height: 400px;
+}
+#character-list section{
+    background-color: cadetblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid white;
+    width: 300px;
+    height: 500px;
+}
+ul{
+    list-style: none;
+}
+#edit-link{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#edit-link, #delete-link{
+    float: right;
+    height: 30px;
+}
+#edit-link:hover, #delete-link:hover{
+    cursor: pointer;
+    color: darkgray;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+/*form*/
+#add-edit-container{
+    background-color: azure;
+    padding: 10px;
+    width: 700px;
+}
+label{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+a{
+    color: black;
+}
+span{
+    font-size: 2em;
+    float: right;
+    padding-right: 5px;
+}
+#team-characters{
+    width: 300px;
+}
+span:hover{
+    cursor: pointer;
+    color: darkgray;
+}
+
+/*animation*/
+
+
+@media (min-width: 900px){
+    #character-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #content{
+        display: flex;
+    }
+}
+@media (max-width: 900px){
+    section{
+        height: 300px;
+    }
+    #edit-link, #delete-link{
+        padding-bottom: 10px;
+    }
+    #add-edit-container{
+        position: relative;
+        bottom: 0px;
+    }
+}

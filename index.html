@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>JoJo Characters</h1>
+            <a href="#" id="add-link">+</a>
+        </header>
+
+        <div id="content">
+        <div id="character-list"></div>
+        
+        <div id="add-edit-container" class="dialog hidden">
+            <span class="close">&times;</span>
+            <form id="add-edit-form" method="post">
+                <h4 id="add-edit-title">Add Character</h4>
+                <input type="hidden" name="_id" value="-1">
+                <p>
+                    <label for="name">Character Name</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="height">Height</label>
+                    <input type="text" id="height" name="height" required>
+                </p>
+                <p>
+                    <label for="nationality">Nationality</label>
+                    <input type="text" id="nationality" name="nationality" required>
+                </p>
+                <p>
+                    <label for="stand_power">Stand Power</label>
+                    <input type="text" id="stand_power" name="stand_power" required>
+                </p>
+                <p>
+                    <label for="enemy">Enemy</label>
+                    <input type="text" id="enemy" name="enemy" required>
+                </p>
+                <p id="team">
+                    <label>Team:</label>
+                    <a href="#" id="add-team-character">Add Team Character</a>
+                    <section id="team-characters"></section>
+                </p>
+                <p>
+                    <label for="img">Upload Image</label>
+                    <input type="file" id="img" name="img">
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+        <p id="submit-msg" class="hidden">Successfully Submitted!</p>
+    </div>
+    </body>
+</html>
