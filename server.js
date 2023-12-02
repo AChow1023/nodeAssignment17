@@ -9,7 +9,7 @@ const multer = require("multer");
 const mongoose = require("mongoose");
 
 mongoose
-    .connect("mongodb://localhost/characters")
+    .connect("mongodb+srv://Andy:G2n7aZXsvNyVpOHj@cluster0.2pbpjwf.mongodb.net/?retryWrites=true&w=majority")
     .then(()=>console.log("Connected to mongodb"))
     .catch((error) => console.log("Couldn't connect to mongodb", error));
 
