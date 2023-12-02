@@ -18,7 +18,6 @@ app.get("/", (req, res) => {
 });
 
 const characterSchema = new mongoose.Schema({
-   // _id: mongoose.SchemaTypes.ObjectId,
     name: String,
     height: String,
     nationality: String,
@@ -40,16 +39,6 @@ app.get("/api/characters", (req, res) => {
 const getCharacters = async (res) => {
     const characters = await Character.find();
     res.send(characters);
-};
-
-
-app.get("/api/characters/:id", (req,res) => {
-    getCharacter(res, req.params.id);
-});
-
-const getCharacter = async(res, id) => {
-    const character = await Character.findOne({_id:id});
-    res.send(character);
 };
 
 app.post("/api/characters", upload.single("img"), (req, res) => {
